@@ -1,8 +1,21 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	margin:0;
+	font: 14px "Segoe UI", Helvetica, Arial, sans-serif;
+	position:fixed;
+	height:100%;
+	width:100%;
+
 }
 
-a {
-  color: #00B7FF;
+#time {
+	font-size: 10em;
+
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
 }
