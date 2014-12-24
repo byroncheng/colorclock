@@ -4,6 +4,7 @@ body {
 	position:fixed;
 	height:100%;
 	width:100%;
+	overflow:auto;
 
 }
 
@@ -18,4 +19,7 @@ body {
 	position:relative;
 	top:50%;
 	transform:translateY(-50%);
+	transition:1s;
+	-webkit-transition:1s;
+
 }
