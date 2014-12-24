@@ -10,9 +10,7 @@ body {
 	-webkit-transition: .5s;
 }
 
-#time {
-	font: 10em "Myriad Pro", Helvetica, Arial, sans-serif;
-
+#text {
 	width:auto;
 	margin-left:auto;
 	margin-right:auto;
@@ -21,7 +19,12 @@ body {
 	position:relative;
 	top:50%;
 	transform:translateY(-50%);
+}
 
-	
+#time {
+	font: 10em "Myriad Pro", Helvetica, Arial, sans-serif;
+}
 
+#desc {
+	font: 1em "Myriad Pro", Helvetica, Arial, sans-serif;
 }

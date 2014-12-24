@@ -15,13 +15,13 @@ $(document).ready(function(){
 		var sat = Math.round(minutes*100/60)+'%';
 		var hue = Math.round(seconds*360/60+millisecond*5/1000);
 
-		//document.body.style.backgroundColor=('hsl('+hue+','+sat+','+lum+')');
+		document.body.style.backgroundColor=('hsl('+hue+','+sat+','+lum+')');
 
 		var rVal = Math.round(hours*255/60);
 		var gVal = Math.round(minutes*255/60);
 		var bVal = Math.round(seconds*255/60+millisecond*5/1000);
 
-		document.body.style.backgroundColor=('rgb('+rVal+','+gVal+','+bVal+')');
+		//document.body.style.backgroundColor=('rgb('+rVal+','+gVal+','+bVal+')');
 
 		//$('#debug').append(hours+':'+minutes+':'+seconds);
 		//$('#debug').append('hue='+hue+' sat='+sat+' lum='+lum+'<br>');
