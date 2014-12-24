@@ -11,11 +11,11 @@ $(document).ready(function(){
 
 		$('#time').html(hours+' : '+minutes+' : '+seconds);
 
-		var lum = Math.round(hours*100/24)+'%';
-		var sat = Math.round(minutes*100/60)+'%';
-		var hue = Math.round(seconds*360/60+millisecond*5/1000);
+		var light = Math.round(100-hours*100/24)+'%';
+		var hue = Math.round(minutes*360/60);
+		var sat = Math.round(seconds*100/60)+'%';
 
-		document.body.style.backgroundColor=('hsl('+hue+','+sat+','+lum+')');
+		document.body.style.backgroundColor=('hsl('+hue+','+sat+','+light+')');
 
 		var rVal = Math.round(hours*255/60);
 		var gVal = Math.round(minutes*255/60);
