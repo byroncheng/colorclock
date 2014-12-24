@@ -21,20 +21,28 @@ body {
 
 @media all and (max-width: 1024px) {
 	#time {
-		font: 4em "Myriad Pro", Helvetica, Arial, sans-serif;
+		font: 70px "Cuprum", Helvetica, Arial, sans-serif;
+		transition: .3s;
+		-webkit-transition: .3s;
 	}
 
 	#desc {
-		font: 1em "Myriad Pro", Helvetica, Arial, sans-serif;
+		font: 20px "Cuprum", Helvetica, Arial, sans-serif;
+		transition: .3s;
+		-webkit-transition: .3s;
 	}
 }
 
 @media all and (min-width: 1024px) {
 	#time {
-		font: 10em "Myriad Pro", Helvetica, Arial, sans-serif;
+		font: 120px "Cuprum", Helvetica, Arial, sans-serif;
+		transition: .3s;
+		-webkit-transition: .3s;
 	}
 
 	#desc {
-		font: 2em "Myriad Pro", Helvetica, Arial, sans-serif;
+		font: 30px "Cuprum", Helvetica, Arial, sans-serif;
+		transition: .3s;
+		-webkit-transition: .3s;
 	}
 }
