@@ -10,6 +10,10 @@ body {
 	-webkit-transition: .5s;
 }
 
+a{
+	color: #000;
+}
+
 #text {
 	width:100%;
 	text-align: center;
@@ -31,6 +35,12 @@ body {
 		transition: .3s;
 		-webkit-transition: .3s;
 	}
+
+	#cred {
+		font: 15px "Cuprum", Helvetica, Arial, sans-serif;
+		transition: .3s;
+		-webkit-transition: .3s;
+	}
 }
 
 @media all and (min-width: 1024px) {
@@ -42,6 +52,12 @@ body {
 
 	#desc {
 		font: 30px "Cuprum", Helvetica, Arial, sans-serif;
+		transition: .3s;
+		-webkit-transition: .3s;
+	}
+
+	#desc {
+		font: 20px "Cuprum", Helvetica, Arial, sans-serif;
 		transition: .3s;
 		-webkit-transition: .3s;
 	}
