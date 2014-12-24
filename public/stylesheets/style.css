@@ -1,9 +1,9 @@
 body {
 	margin:0;
-	position:fixed;
-	height:100%;
-	width:100%;
-	overflow:auto;
+	//position:fixed;
+	//height:100%;
+	//width:100%;
+	//overflow:auto;
 	background-color:#000;
 
 	transition: .5s;
@@ -11,20 +11,30 @@ body {
 }
 
 #text {
-	width:auto;
-	margin-left:auto;
-	margin-right:auto;
+	width:100%;
 	text-align: center;
 
-	position:relative;
+	position:absolute;
 	top:50%;
 	transform:translateY(-50%);
 }
 
-#time {
-	font: 10em "Myriad Pro", Helvetica, Arial, sans-serif;
+@media all and (max-width: 1024px) {
+	#time {
+		font: 4em "Myriad Pro", Helvetica, Arial, sans-serif;
+	}
+
+	#desc {
+		font: 1em "Myriad Pro", Helvetica, Arial, sans-serif;
+	}
 }
 
-#desc {
-	font: 1em "Myriad Pro", Helvetica, Arial, sans-serif;
+@media all and (min-width: 1024px) {
+	#time {
+		font: 10em "Myriad Pro", Helvetica, Arial, sans-serif;
+	}
+
+	#desc {
+		font: 2em "Myriad Pro", Helvetica, Arial, sans-serif;
+	}
 }
