@@ -9,7 +9,7 @@ $(document).ready(function(){
 		var seconds = pad(date.getSeconds());
 		var millisecond = date.getMilliseconds();
 
-		$('#time').html(hours+':'+minutes+':'+seconds);
+		$('#time').html(hours+' : '+minutes+' : '+seconds);
 
 		var lum = Math.round(hours*100/24)+'%';
 		var sat = Math.round(minutes*100/60)+'%';

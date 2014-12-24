@@ -1,15 +1,17 @@
 body {
 	margin:0;
-	font: 14px "Segoe UI", Helvetica, Arial, sans-serif;
 	position:fixed;
 	height:100%;
 	width:100%;
 	overflow:auto;
+	background-color:#000;
 
+	transition: .5s;
+	-webkit-transition: .5s;
 }
 
 #time {
-	font-size: 10em;
+	font: 10em "Myriad Pro", Helvetica, Arial, sans-serif;
 
 	width:auto;
 	margin-left:auto;
@@ -19,7 +21,7 @@ body {
 	position:relative;
 	top:50%;
 	transform:translateY(-50%);
-	transition:1s;
-	-webkit-transition:1s;
+
+	
 
 }
