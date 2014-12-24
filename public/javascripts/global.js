@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 		//$('#debug').append(hours+':'+minutes+':'+seconds);
 		//$('#debug').append('hue='+hue+' sat='+sat+' lum='+lum+'<br>');
-		$('#debug').append('rVal='+rVal+' gVal='+gVal+' bVal='+bVal+'<br>');
+		//$('#debug').append('rVal='+rVal+' gVal='+gVal+' bVal='+bVal+'<br>');
 	},1000);
 	
 });
